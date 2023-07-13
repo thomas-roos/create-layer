@@ -1,0 +1,70 @@
+{
+    "sources": {
+        "meta-aws": {
+            "git-remote": {
+                "branch": "2023-07-10_master-next_ww28",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/thomas-roos/meta-aws.git"
+                    },
+                    "upstream": {
+                        "uri": "https://github.com/aws4embeddedlinux/meta-aws.git"
+                    }
+                },
+                "rev": "fd919f9d3c1b4293a50d7304051b96791ab2ea54"
+            },
+            "path": "meta-aws"
+        },
+        "meta-openembedded": {
+            "git-remote": {
+                "branch": "master",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/openembedded/meta-openembedded.git"
+                    }
+                },
+                "rev": "a9131a983a29a9343fdf833a246f8031b032c091"
+            },
+            "path": "meta-openembedded"
+        },
+        "meta-virtualization": {
+            "git-remote": {
+                "branch": "master",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/lgirdk/meta-virtualization.git"
+                    }
+                },
+                "rev": "680f56d9e432c0cb7de41fe50610f218bf53ba1f"
+            },
+            "path": "meta-virtualization"
+        },
+        "poky": {
+            "git-remote": {
+                "branch": "master",
+                "describe": "4.3_M1-350-ga43fa36614",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/poky"
+                    }
+                },
+                "rev": "a43fa36614977745fcbd6441d1c3c20321a8201d"
+            },
+            "path": "poky"
+        },
+        "testlayer": {
+            "contains_this_file": true,
+            "git-remote": {
+                "branch": "<unknown>",
+                "describe": "",
+                "remotes": {},
+                "rev": "<unknown>"
+            },
+            "path": "build/testlayer"
+        }
+    },
+    "version": "1.0"
+}
